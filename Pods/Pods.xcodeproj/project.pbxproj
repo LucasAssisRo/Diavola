@@ -1,0 +1,894 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F553115B790300D62B2FB6B4797006 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0C6CC194AD187E8D0DCCD928DBBB33C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0CEC83753D8F7A1B76AECAFA5D92A7AC /* JSONWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560FD3FE46B0634AC4F135F584212D1 /* JSONWrapper.swift */; };
+		19E4417DDD2FC704264F1D82D9003534 /* Pods-DiavolaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF80DB6475C0ED0C3C25AD0CDAFBD0A7 /* Pods-DiavolaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B38CE001F36EDD4E6A6A378B2EA112F /* Invocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F29099532E0F262527ACE205E75982 /* Invocation.swift */; };
+		217DC04371D2EB28CFD88DA3258656E9 /* KituraKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 038F9F5F300C339CFCFCEE31BD677090 /* KituraKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2410A71C10508A7A48FCF7CBD498212E /* CircuitBreaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A2B5FE9FC0D82968891CEAA1669312 /* CircuitBreaker.swift */; };
+		278D61C1B86E30270CE29B073050AEF2 /* RestToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6DEA29D64054A85FF5577DBEF1082F /* RestToken.swift */; };
+		2AFEE64A5E4C51D4BB620D20B351F61F /* Pods-Diavola-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 910DCD02BF75E5DCE3126D9F72D95167 /* Pods-Diavola-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CEE51586F927C306AF1CB4D3A3ACAEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2CEE546B521856506DFBCA085F138144 /* RequestErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4158488F8F8A92969D1C56602AE2E5AA /* RequestErrorExtension.swift */; };
+		2D471E9C835F179B1F3277A19FB5A13C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6B27C88C866E0DCC177604C6E9D74D /* Utils.swift */; };
+		32BB4FF76A1CC6791FDE62F82419520E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FF8A5C76F630EE56234A8098D77008 /* Extensions.swift */; };
+		42B4020A66C9C63AC0F698FFC7E99946 /* RestUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C580B8CF4EBFB30377C1944B42345EEB /* RestUtilities.swift */; };
+		5B13DB14153EC8A0D36596E12FAE6177 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CC4FA8627AA2BA6BEEA60A7ADDEEC5 /* Collection.swift */; };
+		5C08D3326E24401F2E63D4F254DB316D /* Bulkhead.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B09A81FB4D0D806BAD0A54F3F3672C /* Bulkhead.swift */; };
+		5D3F7317970D50B696F53EF38D53878F /* BodyFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74AACC77A33DAAB3DE51136545ACEA5 /* BodyFormat.swift */; };
+		66D2E7C3DD8B1B840ECF14AF5D3BC526 /* QueryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E837EB09D06AFFF8BFA695BEE500C7AB /* QueryDecoder.swift */; };
+		6C3D7F4C8E4DA115D40CDA546B459F89 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E78760E106E9AD535FF671704D35B2B /* HTTPMethod.swift */; };
+		6DCD69BEDBB845FE56EAD72EAF6A3404 /* RestRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D2DF28B8EB88AAF42A4415F11ADA8 /* RestRequest.swift */; };
+		77145EE133C91E5D09773836EC02AF9C /* KituraKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D475717E9D12489EB76390A28EB3F /* KituraKit-dummy.m */; };
+		7A34F2D9C5A5327D6C7E538FBF83ADD2 /* MonitorCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC7BDA151329E116E8CDD43A148F21 /* MonitorCollection.swift */; };
+		7A8D0F1456FF50B49153C331A4B952A4 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8AED8E91C5EFEF7D1227605E035D22 /* StringExtensions.swift */; };
+		824D1728EC67824E7B0BE306FBC8A8FB /* Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4D39D26BE4E5F4F4F1F6F3E2E2B918 /* Snapshot.swift */; };
+		82BCC0CDC3345D58545318CA0471F009 /* Coder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195C0869FD426637717E8F3EA1A3BFD4 /* Coder.swift */; };
+		8A639844597D4DC9A959453BB54C2A7A /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1B4FF181E5DDA42A049E6799D31B8D /* Client.swift */; };
+		8A97488122AA5285917D06370B1CBCAD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8605192BCD06D81C9824FED2BC519E /* Logger.swift */; };
+		99A824CE0C8D2540E467D6174073F123 /* BreakerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E00F21A6D180ED084EDC7B8FD283D5 /* BreakerError.swift */; };
+		A5702B6B8CCFDA77E6E88507C1EE64BF /* PersistableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F84F06A2C8C153A1BCA1E2CDDD0F99 /* PersistableExtension.swift */; };
+		B5C0AE7EFBD30E7A045F5CB4EC03A484 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E3DF3A4120D9B2771EC6AF47A06845 /* JSON.swift */; };
+		BEA78A8548D3CE92E9B54F71A477A60C /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF4FEF3E6DE3FB46E27D0481B780B86 /* Stats.swift */; };
+		BEAEF68E9C3F8235EC1488F9D606A8C7 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C2CEFDC4BC8FD7447CC906C648F216 /* MultipartFormData.swift */; };
+		C3A3A6F3DF492523185C28C29D0023D3 /* QueryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23C35379457B18C17C206FD6AC9475E /* QueryEncoder.swift */; };
+		C71C223636E90DDF0AC96AC2F812C0B0 /* ClosureAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340F251CE9FBFBC72066AB4D49A46B94 /* ClosureAliases.swift */; };
+		C75C1EBBA78A276D0000C05E3D4E922F /* CodableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BFCA018BF69CEA4EAD67FBAAC11971 /* CodableExtensions.swift */; };
+		D32687A3994C41F60F1D52B9E83AE67C /* Pods-Diavola-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3243FCE8622574BFE0CB0D40E003F723 /* Pods-Diavola-dummy.m */; };
+		ECD86345F00D279702CB74EDEC88DA3A /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165A07B07A7643B14F3974A823CD0FAD /* Contracts.swift */; };
+		ED387C1C9662BEDC62572574C32E8518 /* Monitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196FE2AF2CD299F7111626070BD3ABD4 /* Monitor.swift */; };
+		EFE51C256F339557316DF91EC7409993 /* Pods-DiavolaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B833BDA3594EC0C2D034CF8280B334F5 /* Pods-DiavolaUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6CCB3A8D599602F6EB6F6832E1BD8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224021F82E1A82121ECB7D4EF0AC8970;
+			remoteInfo = KituraKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0296CAEAB2C13BB37EB77E34D5DF46DE /* Pods-Diavola-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Diavola-acknowledgements.markdown"; sourceTree = "<group>"; };
+		038F9F5F300C339CFCFCEE31BD677090 /* KituraKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KituraKit-umbrella.h"; sourceTree = "<group>"; };
+		07C2CEFDC4BC8FD7447CC906C648F216 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Sources/KituraKit/SwiftyRequest/MultipartFormData.swift; sourceTree = "<group>"; };
+		0A905EE666DEFC7B1C10BD50C3B2E340 /* Pods-DiavolaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiavolaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1521A604F489F533EE7BF1F5E1E6A23A /* Pods-Diavola.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Diavola.modulemap"; sourceTree = "<group>"; };
+		158D475717E9D12489EB76390A28EB3F /* KituraKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KituraKit-dummy.m"; sourceTree = "<group>"; };
+		165A07B07A7643B14F3974A823CD0FAD /* Contracts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Contracts.swift; path = Sources/KituraKit/KituraContracts/Contracts.swift; sourceTree = "<group>"; };
+		195C0869FD426637717E8F3EA1A3BFD4 /* Coder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coder.swift; path = Sources/KituraKit/KituraContracts/Coder.swift; sourceTree = "<group>"; };
+		196FE2AF2CD299F7111626070BD3ABD4 /* Monitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Monitor.swift; path = Sources/KituraKit/CircuitBreaker/Monitor.swift; sourceTree = "<group>"; };
+		1C3CF3527B35204E271CCC020E3D50FB /* Pods_Diavola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Diavola.framework; path = "Pods-Diavola.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		20B850A27626C98BC88303F7B5D823D9 /* KituraKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KituraKit-prefix.pch"; sourceTree = "<group>"; };
+		24AC0EB950616CA35ACF0F3D84B99F13 /* KituraKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KituraKit.framework; path = KituraKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8AED8E91C5EFEF7D1227605E035D22 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = Sources/KituraKit/SwiftyRequest/StringExtensions.swift; sourceTree = "<group>"; };
+		313A34D6B442C8A23CE0D4DF73C02734 /* Pods-Diavola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diavola.debug.xcconfig"; sourceTree = "<group>"; };
+		3243FCE8622574BFE0CB0D40E003F723 /* Pods-Diavola-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Diavola-dummy.m"; sourceTree = "<group>"; };
+		340F251CE9FBFBC72066AB4D49A46B94 /* ClosureAliases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClosureAliases.swift; path = Sources/KituraKit/KituraContracts/ClosureAliases.swift; sourceTree = "<group>"; };
+		4158488F8F8A92969D1C56602AE2E5AA /* RequestErrorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestErrorExtension.swift; path = Sources/KituraKit/RequestErrorExtension.swift; sourceTree = "<group>"; };
+		46E3DF3A4120D9B2771EC6AF47A06845 /* JSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSON.swift; path = Sources/KituraKit/SwiftyRequest/JSON.swift; sourceTree = "<group>"; };
+		4BBC7BDA151329E116E8CDD43A148F21 /* MonitorCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonitorCollection.swift; path = Sources/KituraKit/CircuitBreaker/MonitorCollection.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E78760E106E9AD535FF671704D35B2B /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Sources/KituraKit/SwiftyRequest/HTTPMethod.swift; sourceTree = "<group>"; };
+		70B8F62FDE42C1AF5DA2EBB50736462C /* Pods-Diavola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Diavola.release.xcconfig"; sourceTree = "<group>"; };
+		76BFCA018BF69CEA4EAD67FBAAC11971 /* CodableExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableExtensions.swift; path = Sources/KituraKit/SwiftyRequest/CodableExtensions.swift; sourceTree = "<group>"; };
+		78FF8A5C76F630EE56234A8098D77008 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/KituraKit/KituraContracts/Extensions.swift; sourceTree = "<group>"; };
+		7C25741A32011A57BDD67761AF4D4DC4 /* Pods-DiavolaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DiavolaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		81F29099532E0F262527ACE205E75982 /* Invocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Invocation.swift; path = Sources/KituraKit/CircuitBreaker/Invocation.swift; sourceTree = "<group>"; };
+		84125BE2193EC1E797C4CF1ABA67E710 /* Pods_DiavolaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DiavolaUITests.framework; path = "Pods-DiavolaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87ACF038DF64A661DDB97D1A40DA835B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C11C2C4E0018E8DAA615DB897625A56 /* KituraKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KituraKit.modulemap; sourceTree = "<group>"; };
+		8E6B27C88C866E0DCC177604C6E9D74D /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = Sources/KituraKit/CircuitBreaker/Utils.swift; sourceTree = "<group>"; };
+		910DCD02BF75E5DCE3126D9F72D95167 /* Pods-Diavola-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Diavola-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96B09A81FB4D0D806BAD0A54F3F3672C /* Bulkhead.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bulkhead.swift; path = Sources/KituraKit/CircuitBreaker/Bulkhead.swift; sourceTree = "<group>"; };
+		9D6DEA29D64054A85FF5577DBEF1082F /* RestToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestToken.swift; path = Sources/KituraKit/SwiftyRequest/RestToken.swift; sourceTree = "<group>"; };
+		A215FBE06B6931E26E5D2BFDA0EB463C /* Pods-DiavolaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiavolaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A7A2B5FE9FC0D82968891CEAA1669312 /* CircuitBreaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircuitBreaker.swift; path = Sources/KituraKit/CircuitBreaker/CircuitBreaker.swift; sourceTree = "<group>"; };
+		A7F84F06A2C8C153A1BCA1E2CDDD0F99 /* PersistableExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistableExtension.swift; path = Sources/KituraKit/PersistableExtension.swift; sourceTree = "<group>"; };
+		A8E00F21A6D180ED084EDC7B8FD283D5 /* BreakerError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BreakerError.swift; path = Sources/KituraKit/CircuitBreaker/BreakerError.swift; sourceTree = "<group>"; };
+		AB8605192BCD06D81C9824FED2BC519E /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/KituraKit/LoggerAPI/Logger.swift; sourceTree = "<group>"; };
+		AED0BA4964DF675CC9E910E55C968B02 /* KituraKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KituraKit.xcconfig; sourceTree = "<group>"; };
+		B23C35379457B18C17C206FD6AC9475E /* QueryEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryEncoder.swift; path = Sources/KituraKit/KituraContracts/QueryEncoder.swift; sourceTree = "<group>"; };
+		B5E06CA7C41B39C16A9C14998185507D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B833BDA3594EC0C2D034CF8280B334F5 /* Pods-DiavolaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DiavolaUITests-dummy.m"; sourceTree = "<group>"; };
+		BA8315DA3418CF3B36C85D9FBF99E083 /* Pods-DiavolaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DiavolaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD4D39D26BE4E5F4F4F1F6F3E2E2B918 /* Snapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Snapshot.swift; path = Sources/KituraKit/CircuitBreaker/Snapshot.swift; sourceTree = "<group>"; };
+		C580B8CF4EBFB30377C1944B42345EEB /* RestUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestUtilities.swift; path = Sources/KituraKit/SwiftyRequest/RestUtilities.swift; sourceTree = "<group>"; };
+		C74AACC77A33DAAB3DE51136545ACEA5 /* BodyFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyFormat.swift; path = Sources/KituraKit/KituraContracts/BodyFormat.swift; sourceTree = "<group>"; };
+		CC678D95BD0B2FAB581FA5205B7F377C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3CC4FA8627AA2BA6BEEA60A7ADDEEC5 /* Collection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collection.swift; path = Sources/KituraKit/CircuitBreaker/Collection.swift; sourceTree = "<group>"; };
+		D7CEADEF3326E7CACB1C6A329677F9BC /* Pods-Diavola-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diavola-frameworks.sh"; sourceTree = "<group>"; };
+		DD2D2DF28B8EB88AAF42A4415F11ADA8 /* RestRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestRequest.swift; path = Sources/KituraKit/SwiftyRequest/RestRequest.swift; sourceTree = "<group>"; };
+		E0E515230EBDF211FC8E05A0683D38FD /* Pods-Diavola-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Diavola-resources.sh"; sourceTree = "<group>"; };
+		E560FD3FE46B0634AC4F135F584212D1 /* JSONWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONWrapper.swift; path = Sources/KituraKit/SwiftyRequest/JSONWrapper.swift; sourceTree = "<group>"; };
+		E837EB09D06AFFF8BFA695BEE500C7AB /* QueryDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryDecoder.swift; path = Sources/KituraKit/KituraContracts/QueryDecoder.swift; sourceTree = "<group>"; };
+		E88B9479E0AFFA75297020B7851001CA /* Pods-Diavola-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Diavola-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9D590835B218AD14D191AFB2E51139F /* Pods-DiavolaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DiavolaUITests-resources.sh"; sourceTree = "<group>"; };
+		E9F7E11F2A0FDDAC0EDD44144621F884 /* Pods-DiavolaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DiavolaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB1B4FF181E5DDA42A049E6799D31B8D /* Client.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Client.swift; path = Sources/KituraKit/Client.swift; sourceTree = "<group>"; };
+		EF80DB6475C0ED0C3C25AD0CDAFBD0A7 /* Pods-DiavolaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DiavolaUITests-umbrella.h"; sourceTree = "<group>"; };
+		F9B9C7CE48996950E66F5CB509B2BCDE /* Pods-DiavolaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DiavolaUITests.modulemap"; sourceTree = "<group>"; };
+		FFF4FEF3E6DE3FB46E27D0481B780B86 /* Stats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stats.swift; path = Sources/KituraKit/CircuitBreaker/Stats.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6835A253F12447BD050491FA077F704F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F553115B790300D62B2FB6B4797006 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D7522B173049F45B6C22EAAEC5234E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6CC194AD187E8D0DCCD928DBBB33C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F903807D97685B78EEDCCB04A6D335A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEE51586F927C306AF1CB4D3A3ACAEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F18D745AC2DCD43009CD64414A28F8 /* CircuitBreaker */ = {
+			isa = PBXGroup;
+			children = (
+				43574A50C3B4F1805FCB603E9E81B52D /* LoggerAPI */,
+			);
+			name = CircuitBreaker;
+			sourceTree = "<group>";
+		};
+		116FC8ED4A33B7E20137CF72E04A2B11 /* KituraContracts */ = {
+			isa = PBXGroup;
+			children = (
+				C74AACC77A33DAAB3DE51136545ACEA5 /* BodyFormat.swift */,
+				340F251CE9FBFBC72066AB4D49A46B94 /* ClosureAliases.swift */,
+				195C0869FD426637717E8F3EA1A3BFD4 /* Coder.swift */,
+				165A07B07A7643B14F3974A823CD0FAD /* Contracts.swift */,
+				78FF8A5C76F630EE56234A8098D77008 /* Extensions.swift */,
+				E837EB09D06AFFF8BFA695BEE500C7AB /* QueryDecoder.swift */,
+				B23C35379457B18C17C206FD6AC9475E /* QueryEncoder.swift */,
+				768CAAC720AB02E86EEC83F8A378E875 /* LoggerAPI */,
+			);
+			name = KituraContracts;
+			sourceTree = "<group>";
+		};
+		3231AC8F62BA05BC617BD57EF9A488C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A498315AEF85233FB6EBF03CCA4A18AC /* Pods-Diavola */,
+				D5A253EF1342BEFD29198BB64E19D0E1 /* Pods-DiavolaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43574A50C3B4F1805FCB603E9E81B52D /* LoggerAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LoggerAPI;
+			sourceTree = "<group>";
+		};
+		65D9816EFA85FCE024BAC8A364D9357F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24AC0EB950616CA35ACF0F3D84B99F13 /* KituraKit.framework */,
+				1C3CF3527B35204E271CCC020E3D50FB /* Pods_Diavola.framework */,
+				84125BE2193EC1E797C4CF1ABA67E710 /* Pods_DiavolaUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768CAAC720AB02E86EEC83F8A378E875 /* LoggerAPI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LoggerAPI;
+			sourceTree = "<group>";
+		};
+		79E4BEDD46A82869FE14E2EAFF8D07BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5A0666FFBC289E30A8BC66C54E6CFA9 /* KituraKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				79E4BEDD46A82869FE14E2EAFF8D07BF /* Pods */,
+				65D9816EFA85FCE024BAC8A364D9357F /* Products */,
+				3231AC8F62BA05BC617BD57EF9A488C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84A54FE682BED565C5E8BC6800B647FD /* CircuitBreaker */ = {
+			isa = PBXGroup;
+			children = (
+				A8E00F21A6D180ED084EDC7B8FD283D5 /* BreakerError.swift */,
+				96B09A81FB4D0D806BAD0A54F3F3672C /* Bulkhead.swift */,
+				A7A2B5FE9FC0D82968891CEAA1669312 /* CircuitBreaker.swift */,
+				D3CC4FA8627AA2BA6BEEA60A7ADDEEC5 /* Collection.swift */,
+				81F29099532E0F262527ACE205E75982 /* Invocation.swift */,
+				196FE2AF2CD299F7111626070BD3ABD4 /* Monitor.swift */,
+				4BBC7BDA151329E116E8CDD43A148F21 /* MonitorCollection.swift */,
+				BD4D39D26BE4E5F4F4F1F6F3E2E2B918 /* Snapshot.swift */,
+				FFF4FEF3E6DE3FB46E27D0481B780B86 /* Stats.swift */,
+				8E6B27C88C866E0DCC177604C6E9D74D /* Utils.swift */,
+				B7A7A8BF4E4113C6CA1EA1A8539E1C65 /* LoggerAPI */,
+			);
+			name = CircuitBreaker;
+			sourceTree = "<group>";
+		};
+		A012D95D87917EE68DA9F7987DA475C7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87ACF038DF64A661DDB97D1A40DA835B /* Info.plist */,
+				8C11C2C4E0018E8DAA615DB897625A56 /* KituraKit.modulemap */,
+				AED0BA4964DF675CC9E910E55C968B02 /* KituraKit.xcconfig */,
+				158D475717E9D12489EB76390A28EB3F /* KituraKit-dummy.m */,
+				20B850A27626C98BC88303F7B5D823D9 /* KituraKit-prefix.pch */,
+				038F9F5F300C339CFCFCEE31BD677090 /* KituraKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KituraKit";
+			sourceTree = "<group>";
+		};
+		A498315AEF85233FB6EBF03CCA4A18AC /* Pods-Diavola */ = {
+			isa = PBXGroup;
+			children = (
+				B5E06CA7C41B39C16A9C14998185507D /* Info.plist */,
+				1521A604F489F533EE7BF1F5E1E6A23A /* Pods-Diavola.modulemap */,
+				0296CAEAB2C13BB37EB77E34D5DF46DE /* Pods-Diavola-acknowledgements.markdown */,
+				E88B9479E0AFFA75297020B7851001CA /* Pods-Diavola-acknowledgements.plist */,
+				3243FCE8622574BFE0CB0D40E003F723 /* Pods-Diavola-dummy.m */,
+				D7CEADEF3326E7CACB1C6A329677F9BC /* Pods-Diavola-frameworks.sh */,
+				E0E515230EBDF211FC8E05A0683D38FD /* Pods-Diavola-resources.sh */,
+				910DCD02BF75E5DCE3126D9F72D95167 /* Pods-Diavola-umbrella.h */,
+				313A34D6B442C8A23CE0D4DF73C02734 /* Pods-Diavola.debug.xcconfig */,
+				70B8F62FDE42C1AF5DA2EBB50736462C /* Pods-Diavola.release.xcconfig */,
+			);
+			name = "Pods-Diavola";
+			path = "Target Support Files/Pods-Diavola";
+			sourceTree = "<group>";
+		};
+		B7A7A8BF4E4113C6CA1EA1A8539E1C65 /* LoggerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				AB8605192BCD06D81C9824FED2BC519E /* Logger.swift */,
+			);
+			name = LoggerAPI;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5A0666FFBC289E30A8BC66C54E6CFA9 /* KituraKit */ = {
+			isa = PBXGroup;
+			children = (
+				EB1B4FF181E5DDA42A049E6799D31B8D /* Client.swift */,
+				A7F84F06A2C8C153A1BCA1E2CDDD0F99 /* PersistableExtension.swift */,
+				4158488F8F8A92969D1C56602AE2E5AA /* RequestErrorExtension.swift */,
+				84A54FE682BED565C5E8BC6800B647FD /* CircuitBreaker */,
+				116FC8ED4A33B7E20137CF72E04A2B11 /* KituraContracts */,
+				A012D95D87917EE68DA9F7987DA475C7 /* Support Files */,
+				CA2FCD05C85F96AA0C8AE5ACDAD5C50A /* SwiftyRequest */,
+			);
+			name = KituraKit;
+			path = KituraKit;
+			sourceTree = "<group>";
+		};
+		CA2FCD05C85F96AA0C8AE5ACDAD5C50A /* SwiftyRequest */ = {
+			isa = PBXGroup;
+			children = (
+				76BFCA018BF69CEA4EAD67FBAAC11971 /* CodableExtensions.swift */,
+				6E78760E106E9AD535FF671704D35B2B /* HTTPMethod.swift */,
+				46E3DF3A4120D9B2771EC6AF47A06845 /* JSON.swift */,
+				E560FD3FE46B0634AC4F135F584212D1 /* JSONWrapper.swift */,
+				07C2CEFDC4BC8FD7447CC906C648F216 /* MultipartFormData.swift */,
+				DD2D2DF28B8EB88AAF42A4415F11ADA8 /* RestRequest.swift */,
+				9D6DEA29D64054A85FF5577DBEF1082F /* RestToken.swift */,
+				C580B8CF4EBFB30377C1944B42345EEB /* RestUtilities.swift */,
+				2F8AED8E91C5EFEF7D1227605E035D22 /* StringExtensions.swift */,
+				09F18D745AC2DCD43009CD64414A28F8 /* CircuitBreaker */,
+			);
+			name = SwiftyRequest;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5A253EF1342BEFD29198BB64E19D0E1 /* Pods-DiavolaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC678D95BD0B2FAB581FA5205B7F377C /* Info.plist */,
+				F9B9C7CE48996950E66F5CB509B2BCDE /* Pods-DiavolaUITests.modulemap */,
+				E9F7E11F2A0FDDAC0EDD44144621F884 /* Pods-DiavolaUITests-acknowledgements.markdown */,
+				7C25741A32011A57BDD67761AF4D4DC4 /* Pods-DiavolaUITests-acknowledgements.plist */,
+				B833BDA3594EC0C2D034CF8280B334F5 /* Pods-DiavolaUITests-dummy.m */,
+				A215FBE06B6931E26E5D2BFDA0EB463C /* Pods-DiavolaUITests-frameworks.sh */,
+				E9D590835B218AD14D191AFB2E51139F /* Pods-DiavolaUITests-resources.sh */,
+				EF80DB6475C0ED0C3C25AD0CDAFBD0A7 /* Pods-DiavolaUITests-umbrella.h */,
+				BA8315DA3418CF3B36C85D9FBF99E083 /* Pods-DiavolaUITests.debug.xcconfig */,
+				0A905EE666DEFC7B1C10BD50C3B2E340 /* Pods-DiavolaUITests.release.xcconfig */,
+			);
+			name = "Pods-DiavolaUITests";
+			path = "Target Support Files/Pods-DiavolaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74353A6F84F94C3AB2CAEEA70409D490 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217DC04371D2EB28CFD88DA3258656E9 /* KituraKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84340637FBB9625538BA62B74C331184 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AFEE64A5E4C51D4BB620D20B351F61F /* Pods-Diavola-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ED4F4C2E52B75D5A223FC30F3F4B6F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E4417DDD2FC704264F1D82D9003534 /* Pods-DiavolaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14BC032D4568E36B25803D65BBA29E0D /* Pods-Diavola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953546D640DC001ABFE37EDBCE5BBE4B /* Build configuration list for PBXNativeTarget "Pods-Diavola" */;
+			buildPhases = (
+				57745B5B29C4DD19AD343BAA5CC71078 /* Sources */,
+				F903807D97685B78EEDCCB04A6D335A5 /* Frameworks */,
+				84340637FBB9625538BA62B74C331184 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4193640E0EC73F2514FF96E7395252E6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Diavola";
+			productName = "Pods-Diavola";
+			productReference = 1C3CF3527B35204E271CCC020E3D50FB /* Pods_Diavola.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		224021F82E1A82121ECB7D4EF0AC8970 /* KituraKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CCDBDA481BE94008655D9008E3DB57B /* Build configuration list for PBXNativeTarget "KituraKit" */;
+			buildPhases = (
+				C12EEFD9C98236AFC8B3C4B8F830EDC3 /* Sources */,
+				8D7522B173049F45B6C22EAAEC5234E6 /* Frameworks */,
+				74353A6F84F94C3AB2CAEEA70409D490 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KituraKit;
+			productName = KituraKit;
+			productReference = 24AC0EB950616CA35ACF0F3D84B99F13 /* KituraKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5D94A212CD94C8AC228F0CD01F4DE8C /* Pods-DiavolaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B1712D6C93A577DBD8F0CC885B220E /* Build configuration list for PBXNativeTarget "Pods-DiavolaUITests" */;
+			buildPhases = (
+				10CA1BA42CEBE00FB44ECD9F2BB1417B /* Sources */,
+				6835A253F12447BD050491FA077F704F /* Frameworks */,
+				9ED4F4C2E52B75D5A223FC30F3F4B6F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DiavolaUITests";
+			productName = "Pods-DiavolaUITests";
+			productReference = 84125BE2193EC1E797C4CF1ABA67E710 /* Pods_DiavolaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 65D9816EFA85FCE024BAC8A364D9357F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224021F82E1A82121ECB7D4EF0AC8970 /* KituraKit */,
+				14BC032D4568E36B25803D65BBA29E0D /* Pods-Diavola */,
+				B5D94A212CD94C8AC228F0CD01F4DE8C /* Pods-DiavolaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10CA1BA42CEBE00FB44ECD9F2BB1417B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE51C256F339557316DF91EC7409993 /* Pods-DiavolaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57745B5B29C4DD19AD343BAA5CC71078 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32687A3994C41F60F1D52B9E83AE67C /* Pods-Diavola-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12EEFD9C98236AFC8B3C4B8F830EDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3F7317970D50B696F53EF38D53878F /* BodyFormat.swift in Sources */,
+				99A824CE0C8D2540E467D6174073F123 /* BreakerError.swift in Sources */,
+				5C08D3326E24401F2E63D4F254DB316D /* Bulkhead.swift in Sources */,
+				2410A71C10508A7A48FCF7CBD498212E /* CircuitBreaker.swift in Sources */,
+				8A639844597D4DC9A959453BB54C2A7A /* Client.swift in Sources */,
+				C71C223636E90DDF0AC96AC2F812C0B0 /* ClosureAliases.swift in Sources */,
+				C75C1EBBA78A276D0000C05E3D4E922F /* CodableExtensions.swift in Sources */,
+				82BCC0CDC3345D58545318CA0471F009 /* Coder.swift in Sources */,
+				5B13DB14153EC8A0D36596E12FAE6177 /* Collection.swift in Sources */,
+				ECD86345F00D279702CB74EDEC88DA3A /* Contracts.swift in Sources */,
+				32BB4FF76A1CC6791FDE62F82419520E /* Extensions.swift in Sources */,
+				6C3D7F4C8E4DA115D40CDA546B459F89 /* HTTPMethod.swift in Sources */,
+				1B38CE001F36EDD4E6A6A378B2EA112F /* Invocation.swift in Sources */,
+				B5C0AE7EFBD30E7A045F5CB4EC03A484 /* JSON.swift in Sources */,
+				0CEC83753D8F7A1B76AECAFA5D92A7AC /* JSONWrapper.swift in Sources */,
+				77145EE133C91E5D09773836EC02AF9C /* KituraKit-dummy.m in Sources */,
+				8A97488122AA5285917D06370B1CBCAD /* Logger.swift in Sources */,
+				ED387C1C9662BEDC62572574C32E8518 /* Monitor.swift in Sources */,
+				7A34F2D9C5A5327D6C7E538FBF83ADD2 /* MonitorCollection.swift in Sources */,
+				BEAEF68E9C3F8235EC1488F9D606A8C7 /* MultipartFormData.swift in Sources */,
+				A5702B6B8CCFDA77E6E88507C1EE64BF /* PersistableExtension.swift in Sources */,
+				66D2E7C3DD8B1B840ECF14AF5D3BC526 /* QueryDecoder.swift in Sources */,
+				C3A3A6F3DF492523185C28C29D0023D3 /* QueryEncoder.swift in Sources */,
+				2CEE546B521856506DFBCA085F138144 /* RequestErrorExtension.swift in Sources */,
+				6DCD69BEDBB845FE56EAD72EAF6A3404 /* RestRequest.swift in Sources */,
+				278D61C1B86E30270CE29B073050AEF2 /* RestToken.swift in Sources */,
+				42B4020A66C9C63AC0F698FFC7E99946 /* RestUtilities.swift in Sources */,
+				824D1728EC67824E7B0BE306FBC8A8FB /* Snapshot.swift in Sources */,
+				BEA78A8548D3CE92E9B54F71A477A60C /* Stats.swift in Sources */,
+				7A8D0F1456FF50B49153C331A4B952A4 /* StringExtensions.swift in Sources */,
+				2D471E9C835F179B1F3277A19FB5A13C /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4193640E0EC73F2514FF96E7395252E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KituraKit;
+			target = 224021F82E1A82121ECB7D4EF0AC8970 /* KituraKit */;
+			targetProxy = DC6CCB3A8D599602F6EB6F6832E1BD8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5FFD705E83C873819723DE008118A546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8315DA3418CF3B36C85D9FBF99E083 /* Pods-DiavolaUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiavolaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiavolaUITests/Pods-DiavolaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DiavolaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9D0AB9AEA0B84B55BCBFCDA93866A7A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED0BA4964DF675CC9E910E55C968B02 /* KituraKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KituraKit/KituraKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KituraKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KituraKit/KituraKit.modulemap";
+				PRODUCT_NAME = KituraKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6CFEFA98095FAA35FADC3D061DF5931 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED0BA4964DF675CC9E910E55C968B02 /* KituraKit.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KituraKit/KituraKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KituraKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KituraKit/KituraKit.modulemap";
+				PRODUCT_NAME = KituraKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CFCFB13862CF741611039BAA8387E1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313A34D6B442C8A23CE0D4DF73C02734 /* Pods-Diavola.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diavola/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diavola/Pods-Diavola.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diavola;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5E75CB0FFF3376F28067590749047E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70B8F62FDE42C1AF5DA2EBB50736462C /* Pods-Diavola.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Diavola/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Diavola/Pods-Diavola.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Diavola;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F9283ECBC201578AFCC6AFC528FD89E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A905EE666DEFC7B1C10BD50C3B2E340 /* Pods-DiavolaUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DiavolaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DiavolaUITests/Pods-DiavolaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DiavolaUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CCDBDA481BE94008655D9008E3DB57B /* Build configuration list for PBXNativeTarget "KituraKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D0AB9AEA0B84B55BCBFCDA93866A7A8 /* Debug */,
+				B6CFEFA98095FAA35FADC3D061DF5931 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953546D640DC001ABFE37EDBCE5BBE4B /* Build configuration list for PBXNativeTarget "Pods-Diavola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCFB13862CF741611039BAA8387E1E9 /* Debug */,
+				D5E75CB0FFF3376F28067590749047E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99B1712D6C93A577DBD8F0CC885B220E /* Build configuration list for PBXNativeTarget "Pods-DiavolaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FFD705E83C873819723DE008118A546 /* Debug */,
+				F9283ECBC201578AFCC6AFC528FD89E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

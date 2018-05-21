@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38C53B5B85ECE4606B73384D /* Pods_DiavolaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CDC9E42751DDC20866E427 /* Pods_DiavolaUITests.framework */; };
+		415220D020B301CF00E0463D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415220CF20B301CF00E0463D /* AppDelegate.swift */; };
+		415220D220B301CF00E0463D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415220D120B301CF00E0463D /* ViewController.swift */; };
+		415220D520B301CF00E0463D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415220D320B301CF00E0463D /* Main.storyboard */; };
+		415220D720B301CF00E0463D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415220D620B301CF00E0463D /* Assets.xcassets */; };
+		415220DA20B301CF00E0463D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415220D820B301CF00E0463D /* LaunchScreen.storyboard */; };
+		415220E520B301CF00E0463D /* DiavolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415220E420B301CF00E0463D /* DiavolaUITests.swift */; };
+		415220F020B301F400E0463D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 415220EF20B301F400E0463D /* Podfile */; };
+		6461184A6570B40F0F61D45E /* Pods_Diavola.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E841930E0CB070886F97C2 /* Pods_Diavola.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		415220E120B301CF00E0463D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 415220C420B301CF00E0463D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 415220CB20B301CF00E0463D;
+			remoteInfo = Diavola;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34E841930E0CB070886F97C2 /* Pods_Diavola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diavola.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3525459B02168AC66B4C5EED /* Pods-Diavola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diavola.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diavola/Pods-Diavola.release.xcconfig"; sourceTree = "<group>"; };
+		415220CC20B301CF00E0463D /* Diavola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diavola.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		415220CF20B301CF00E0463D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		415220D120B301CF00E0463D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		415220D420B301CF00E0463D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		415220D620B301CF00E0463D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		415220D920B301CF00E0463D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		415220DB20B301CF00E0463D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415220E020B301CF00E0463D /* DiavolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiavolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		415220E420B301CF00E0463D /* DiavolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiavolaUITests.swift; sourceTree = "<group>"; };
+		415220E620B301CF00E0463D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415220EF20B301F400E0463D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		B9027A382B51ACFFF6A37E45 /* Pods-DiavolaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiavolaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiavolaUITests/Pods-DiavolaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9CDC9E42751DDC20866E427 /* Pods_DiavolaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiavolaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FC58E8FC795A9BFF6510BF /* Pods-Diavola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diavola.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diavola/Pods-Diavola.debug.xcconfig"; sourceTree = "<group>"; };
+		EA8DAE42CCD08F25753FC5D9 /* Pods-DiavolaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiavolaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DiavolaUITests/Pods-DiavolaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		415220C920B301CF00E0463D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6461184A6570B40F0F61D45E /* Pods_Diavola.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415220DD20B301CF00E0463D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38C53B5B85ECE4606B73384D /* Pods_DiavolaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		415220C320B301CF00E0463D = {
+			isa = PBXGroup;
+			children = (
+				415220CE20B301CF00E0463D /* Diavola */,
+				415220E320B301CF00E0463D /* DiavolaUITests */,
+				415220CD20B301CF00E0463D /* Products */,
+				7DB65C4A710CB8E5B2C76364 /* Pods */,
+				41ECDC88F1E8E5A62B72CE6B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		415220CD20B301CF00E0463D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				415220CC20B301CF00E0463D /* Diavola.app */,
+				415220E020B301CF00E0463D /* DiavolaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		415220CE20B301CF00E0463D /* Diavola */ = {
+			isa = PBXGroup;
+			children = (
+				415220CF20B301CF00E0463D /* AppDelegate.swift */,
+				415220D120B301CF00E0463D /* ViewController.swift */,
+				415220D320B301CF00E0463D /* Main.storyboard */,
+				415220D620B301CF00E0463D /* Assets.xcassets */,
+				415220D820B301CF00E0463D /* LaunchScreen.storyboard */,
+				415220DB20B301CF00E0463D /* Info.plist */,
+				415220EF20B301F400E0463D /* Podfile */,
+			);
+			path = Diavola;
+			sourceTree = "<group>";
+		};
+		415220E320B301CF00E0463D /* DiavolaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				415220E420B301CF00E0463D /* DiavolaUITests.swift */,
+				415220E620B301CF00E0463D /* Info.plist */,
+			);
+			path = DiavolaUITests;
+			sourceTree = "<group>";
+		};
+		41ECDC88F1E8E5A62B72CE6B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E841930E0CB070886F97C2 /* Pods_Diavola.framework */,
+				D9CDC9E42751DDC20866E427 /* Pods_DiavolaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB65C4A710CB8E5B2C76364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC58E8FC795A9BFF6510BF /* Pods-Diavola.debug.xcconfig */,
+				3525459B02168AC66B4C5EED /* Pods-Diavola.release.xcconfig */,
+				EA8DAE42CCD08F25753FC5D9 /* Pods-DiavolaUITests.debug.xcconfig */,
+				B9027A382B51ACFFF6A37E45 /* Pods-DiavolaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		415220CB20B301CF00E0463D /* Diavola */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415220E920B301CF00E0463D /* Build configuration list for PBXNativeTarget "Diavola" */;
+			buildPhases = (
+				23F5024660BC0E38253D9A0E /* [CP] Check Pods Manifest.lock */,
+				415220C820B301CF00E0463D /* Sources */,
+				415220C920B301CF00E0463D /* Frameworks */,
+				415220CA20B301CF00E0463D /* Resources */,
+				69F87AEFC1139FC861038B3F /* [CP] Embed Pods Frameworks */,
+				FEE5B64AC48FF2AC320709B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Diavola;
+			productName = Diavola;
+			productReference = 415220CC20B301CF00E0463D /* Diavola.app */;
+			productType = "com.apple.product-type.application";
+		};
+		415220DF20B301CF00E0463D /* DiavolaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 415220EC20B301CF00E0463D /* Build configuration list for PBXNativeTarget "DiavolaUITests" */;
+			buildPhases = (
+				A7C412741ADB8C6D4A9787A3 /* [CP] Check Pods Manifest.lock */,
+				415220DC20B301CF00E0463D /* Sources */,
+				415220DD20B301CF00E0463D /* Frameworks */,
+				415220DE20B301CF00E0463D /* Resources */,
+				4578B5CC32A5B4DBD1C96540 /* [CP] Embed Pods Frameworks */,
+				DFE44EF1CA98BD9EBA87D3EB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				415220E220B301CF00E0463D /* PBXTargetDependency */,
+			);
+			name = DiavolaUITests;
+			productName = DiavolaUITests;
+			productReference = 415220E020B301CF00E0463D /* DiavolaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		415220C420B301CF00E0463D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Lucas Assis Rodrigues";
+				TargetAttributes = {
+					415220CB20B301CF00E0463D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					415220DF20B301CF00E0463D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 415220CB20B301CF00E0463D;
+					};
+				};
+			};
+			buildConfigurationList = 415220C720B301CF00E0463D /* Build configuration list for PBXProject "Diavola" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 415220C320B301CF00E0463D;
+			productRefGroup = 415220CD20B301CF00E0463D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				415220CB20B301CF00E0463D /* Diavola */,
+				415220DF20B301CF00E0463D /* DiavolaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		415220CA20B301CF00E0463D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415220DA20B301CF00E0463D /* LaunchScreen.storyboard in Resources */,
+				415220D720B301CF00E0463D /* Assets.xcassets in Resources */,
+				415220F020B301F400E0463D /* Podfile in Resources */,
+				415220D520B301CF00E0463D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415220DE20B301CF00E0463D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F5024660BC0E38253D9A0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Diavola-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4578B5CC32A5B4DBD1C96540 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiavolaUITests/Pods-DiavolaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69F87AEFC1139FC861038B3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Diavola/Pods-Diavola-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KituraKit/KituraKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KituraKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diavola/Pods-Diavola-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C412741ADB8C6D4A9787A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiavolaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE44EF1CA98BD9EBA87D3EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DiavolaUITests/Pods-DiavolaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE5B64AC48FF2AC320709B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Diavola/Pods-Diavola-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		415220C820B301CF00E0463D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415220D220B301CF00E0463D /* ViewController.swift in Sources */,
+				415220D020B301CF00E0463D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415220DC20B301CF00E0463D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415220E520B301CF00E0463D /* DiavolaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		415220E220B301CF00E0463D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 415220CB20B301CF00E0463D /* Diavola */;
+			targetProxy = 415220E120B301CF00E0463D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		415220D320B301CF00E0463D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415220D420B301CF00E0463D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		415220D820B301CF00E0463D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				415220D920B301CF00E0463D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		415220E720B301CF00E0463D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		415220E820B301CF00E0463D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		415220EA20B301CF00E0463D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FC58E8FC795A9BFF6510BF /* Pods-Diavola.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH88N3P4EZ;
+				INFOPLIST_FILE = Diavola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawaiianPizza.Diavola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		415220EB20B301CF00E0463D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3525459B02168AC66B4C5EED /* Pods-Diavola.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH88N3P4EZ;
+				INFOPLIST_FILE = Diavola/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawaiianPizza.Diavola;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		415220ED20B301CF00E0463D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA8DAE42CCD08F25753FC5D9 /* Pods-DiavolaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH88N3P4EZ;
+				INFOPLIST_FILE = DiavolaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawaiianPizza.DiavolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Diavola;
+			};
+			name = Debug;
+		};
+		415220EE20B301CF00E0463D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9027A382B51ACFFF6A37E45 /* Pods-DiavolaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HH88N3P4EZ;
+				INFOPLIST_FILE = DiavolaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hawaiianPizza.DiavolaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Diavola;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		415220C720B301CF00E0463D /* Build configuration list for PBXProject "Diavola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415220E720B301CF00E0463D /* Debug */,
+				415220E820B301CF00E0463D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415220E920B301CF00E0463D /* Build configuration list for PBXNativeTarget "Diavola" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415220EA20B301CF00E0463D /* Debug */,
+				415220EB20B301CF00E0463D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		415220EC20B301CF00E0463D /* Build configuration list for PBXNativeTarget "DiavolaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				415220ED20B301CF00E0463D /* Debug */,
+				415220EE20B301CF00E0463D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 415220C420B301CF00E0463D /* Project object */;
+}
