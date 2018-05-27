@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		38C53B5B85ECE4606B73384D /* Pods_DiavolaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CDC9E42751DDC20866E427 /* Pods_DiavolaUITests.framework */; };
+		414A614120BB10C000AA88F8 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A614020BB10C000AA88F8 /* Venue.swift */; };
 		415220D020B301CF00E0463D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415220CF20B301CF00E0463D /* AppDelegate.swift */; };
 		415220D220B301CF00E0463D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415220D120B301CF00E0463D /* ViewController.swift */; };
 		415220D520B301CF00E0463D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415220D320B301CF00E0463D /* Main.storyboard */; };
-		415220D720B301CF00E0463D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 415220D620B301CF00E0463D /* Assets.xcassets */; };
 		415220DA20B301CF00E0463D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415220D820B301CF00E0463D /* LaunchScreen.storyboard */; };
 		415220E520B301CF00E0463D /* DiavolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415220E420B301CF00E0463D /* DiavolaUITests.swift */; };
+		415503BF20BB0F510010D974 /* VenueImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415503BC20BB0F510010D974 /* VenueImage.swift */; };
+		415503C020BB0F510010D974 /* VenueTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415503BD20BB0F510010D974 /* VenueTag.swift */; };
+		415503CB20BB0FB80010D974 /* ProductImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415503C820BB0FB80010D974 /* ProductImage.swift */; };
+		415503CC20BB0FB80010D974 /* ProductAllergen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415503C920BB0FB80010D974 /* ProductAllergen.swift */; };
+		415503CD20BB0FB80010D974 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415503CA20BB0FB80010D974 /* Product.swift */; };
 		418C7D9120B30421005F5BE0 /* Tour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C7D8D20B30421005F5BE0 /* Tour.swift */; };
-		418C7D9220B30421005F5BE0 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C7D8E20B30421005F5BE0 /* Venue.swift */; };
-		418C7D9320B30421005F5BE0 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C7D8F20B30421005F5BE0 /* Product.swift */; };
 		418C7D9420B30421005F5BE0 /* TourVenueLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C7D9020B30421005F5BE0 /* TourVenueLink.swift */; };
 		418C7D9620B3042E005F5BE0 /* ServerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418C7D9520B3042E005F5BE0 /* ServerHandler.swift */; };
+		41E6CCAC20B593B9000407A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E6CCAB20B593B9000407A8 /* Assets.xcassets */; };
 		6461184A6570B40F0F61D45E /* Pods_Diavola.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E841930E0CB070886F97C2 /* Pods_Diavola.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,21 +39,25 @@
 /* Begin PBXFileReference section */
 		34E841930E0CB070886F97C2 /* Pods_Diavola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Diavola.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3525459B02168AC66B4C5EED /* Pods-Diavola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diavola.release.xcconfig"; path = "Pods/Target Support Files/Pods-Diavola/Pods-Diavola.release.xcconfig"; sourceTree = "<group>"; };
+		414A614020BB10C000AA88F8 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
 		415220CC20B301CF00E0463D /* Diavola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Diavola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		415220CF20B301CF00E0463D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		415220D120B301CF00E0463D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		415220D420B301CF00E0463D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		415220D620B301CF00E0463D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		415220D920B301CF00E0463D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		415220DB20B301CF00E0463D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		415220E020B301CF00E0463D /* DiavolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiavolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		415220E420B301CF00E0463D /* DiavolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiavolaUITests.swift; sourceTree = "<group>"; };
 		415220E620B301CF00E0463D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		415503BC20BB0F510010D974 /* VenueImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueImage.swift; sourceTree = "<group>"; };
+		415503BD20BB0F510010D974 /* VenueTag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueTag.swift; sourceTree = "<group>"; };
+		415503C820BB0FB80010D974 /* ProductImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductImage.swift; sourceTree = "<group>"; };
+		415503C920BB0FB80010D974 /* ProductAllergen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductAllergen.swift; sourceTree = "<group>"; };
+		415503CA20BB0FB80010D974 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		418C7D8D20B30421005F5BE0 /* Tour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tour.swift; sourceTree = "<group>"; };
-		418C7D8E20B30421005F5BE0 /* Venue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
-		418C7D8F20B30421005F5BE0 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		418C7D9020B30421005F5BE0 /* TourVenueLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourVenueLink.swift; sourceTree = "<group>"; };
 		418C7D9520B3042E005F5BE0 /* ServerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerHandler.swift; sourceTree = "<group>"; };
+		41E6CCAB20B593B9000407A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9027A382B51ACFFF6A37E45 /* Pods-DiavolaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiavolaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DiavolaUITests/Pods-DiavolaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D9CDC9E42751DDC20866E427 /* Pods_DiavolaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiavolaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FC58E8FC795A9BFF6510BF /* Pods-Diavola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Diavola.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Diavola/Pods-Diavola.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,8 +111,8 @@
 				415220CF20B301CF00E0463D /* AppDelegate.swift */,
 				415220D120B301CF00E0463D /* ViewController.swift */,
 				415220D320B301CF00E0463D /* Main.storyboard */,
-				415220D620B301CF00E0463D /* Assets.xcassets */,
 				415220D820B301CF00E0463D /* LaunchScreen.storyboard */,
+				41E6CCAB20B593B9000407A8 /* Assets.xcassets */,
 				418C7D9520B3042E005F5BE0 /* ServerHandler.swift */,
 				415220DB20B301CF00E0463D /* Info.plist */,
 			);
@@ -120,12 +128,32 @@
 			path = DiavolaUITests;
 			sourceTree = "<group>";
 		};
+		415503C220BB0F610010D974 /* Venue */ = {
+			isa = PBXGroup;
+			children = (
+				415503BC20BB0F510010D974 /* VenueImage.swift */,
+				415503BD20BB0F510010D974 /* VenueTag.swift */,
+				414A614020BB10C000AA88F8 /* Venue.swift */,
+			);
+			name = Venue;
+			sourceTree = "<group>";
+		};
+		415503C720BB0FA70010D974 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				415503CA20BB0FB80010D974 /* Product.swift */,
+				415503C920BB0FB80010D974 /* ProductAllergen.swift */,
+				415503C820BB0FB80010D974 /* ProductImage.swift */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
 		418C7D8C20B30421005F5BE0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				415503C720BB0FA70010D974 /* Product */,
 				418C7D8D20B30421005F5BE0 /* Tour.swift */,
-				418C7D8E20B30421005F5BE0 /* Venue.swift */,
-				418C7D8F20B30421005F5BE0 /* Product.swift */,
+				415503C220BB0F610010D974 /* Venue */,
 				418C7D9020B30421005F5BE0 /* TourVenueLink.swift */,
 			);
 			path = Models;
@@ -239,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				415220DA20B301CF00E0463D /* LaunchScreen.storyboard in Resources */,
-				415220D720B301CF00E0463D /* Assets.xcassets in Resources */,
+				41E6CCAC20B593B9000407A8 /* Assets.xcassets in Resources */,
 				415220D520B301CF00E0463D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,10 +389,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				418C7D9120B30421005F5BE0 /* Tour.swift in Sources */,
-				418C7D9220B30421005F5BE0 /* Venue.swift in Sources */,
-				418C7D9320B30421005F5BE0 /* Product.swift in Sources */,
+				415503CB20BB0FB80010D974 /* ProductImage.swift in Sources */,
+				415503C020BB0F510010D974 /* VenueTag.swift in Sources */,
+				415503BF20BB0F510010D974 /* VenueImage.swift in Sources */,
+				414A614120BB10C000AA88F8 /* Venue.swift in Sources */,
+				415503CC20BB0FB80010D974 /* ProductAllergen.swift in Sources */,
 				418C7D9620B3042E005F5BE0 /* ServerHandler.swift in Sources */,
 				415220D220B301CF00E0463D /* ViewController.swift in Sources */,
+				415503CD20BB0FB80010D974 /* Product.swift in Sources */,
 				415220D020B301CF00E0463D /* AppDelegate.swift in Sources */,
 				418C7D9420B30421005F5BE0 /* TourVenueLink.swift in Sources */,
 			);
