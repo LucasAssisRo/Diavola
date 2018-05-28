@@ -12,89 +12,186 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-//        for i in 0..<4 {
-//            ServerHandler.shared.post(venue: Venue(venueId: "",
-//                                                   name: "TEST\(i)",
-//                                                   description: "TEST ENTRY NUMBER \(i)",
-//                                                   category: "TEST ENTRY",
-//                                                   address1: "000 TEST LANE",
-//                                                   address2: "TEST",
-//                                                   city: "TESTVILLE",
-//                                                   country: "TESTHSTAN",
-//                                                   zipCode: "000-TEST",
-//                                                   phone: "000-000-TEST",
-//                                                   email: "test@test.com")) { venue, error in
-//                                                    print(error, " ---- ", venue)
-//            }
-//        }
+        let kitura = ServerHandler.shared
         
-        ServerHandler.shared.getAllVenues { venues, error in
-            guard let venues = venues else { return }
-                ServerHandler.shared.post(venueImage: VenueImage(venueId: venues[4].venueId, image: UIImagePNGRepresentation(#imageLiteral(resourceName: "store"))!)) { image, error in
-                    print(image, error)
-                }
-        }
-    
+        //                kitura.post(venue: Venue(venueId: "",
+        //                                         name: "Pineapple Comics",
+        //                                         description: """
+        //        Biggest comic book store in Naples.
+        //        """,
+        //                                         category: "Comic Book Store",
+        //                                         address1: "Corso Nicolangelo Protopisani 50",
+        //                                         address2: "San Giovanni a Teduccio",
+        //                                         city: "Naples",
+        //                                         country: "Italy",
+        //                                         zipCode: "80146",
+        //                                         phone: "(555) 555-5555",
+        //                                         email: "fake@email.com")) { venue, error in
+        //                                            print(venue, error)
+        //                }
         
-//        for i in 0...5 {
-//                ServerHandler.shared.post(product: Product(productId: "",
-//                                                           venueId: "197351861391138231142659295-4478775936803369351",
-//                                                           name: "test\(i)",
-//                                                           images: NSKeyedArchiver.archivedData(withRootObject: [#imageLiteral(resourceName: "jam")]),
-//                                                           allergens: NSKeyedArchiver.archivedData(withRootObject: ["strawberry, sugar"]),
-//                                                           description: "test product \(i)")) { (product, error) in
-//                                                            guard let error = error else {
-//                                                                print(product as Any)
-//                                                                return
-//                                                            }
-//                }
-//        }
         
-        //        for i in 0...1 {
-        //            ServerHandler.shared.post(tour: Tour(tourId: "",
-        //                                                 name: "TOUR TEST \(i)",
-        //                images: NSKeyedArchiver.archivedData(withRootObject: [#imageLiteral(resourceName: "tour")]),
-        //                description: "TEST",
-        //                milestones: 0,
-        //                duration: 0,
-        //                route: NSKeyedArchiver.archivedData(withRootObject: ["lat, lng"]))) { tour, error in
-        //                    print(error, " ---- ", tour)
-        //            }
+        //                kitura.post(venueImage: VenueImage(venueId: "545293407843501799060538334838047614284007800857270181508589",
+        //                                                   image: UIImagePNGRepresentation(#imageLiteral(resourceName: "comics"))!)) { image, error in
+        //                                                    print(image, error)
+        //                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        //        kitura.post(venue: Venue(venueId: "",
+        //                                 name: "Egg Toys",
+        //                                 description: """
+        //Traditional toy store in the historical centre of Naples.
+        //Bringing joy to kids since 1937.
+        //""",
+        //                                 category: "Toy Store",
+        //                                 address1: "Corso Nicolangelo Protopisani 50",
+        //                                 address2: "San Giovanni a Teduccio",
+        //                                 city: "Naples",
+        //                                 country: "Italy",
+        //                                 zipCode: "80146",
+        //                                 phone: "(555) 555-5555",
+        //                                 email: "fake@email.com")) { venue, error in
+        //                                    print(venue, error)
+        //        }
+        //
+        //        kitura.post(venueImage: VenueImage(venueId: "-3612227174302601785-987605507075909538-81096607556952172878589",
+        //                                           image: UIImagePNGRepresentation(#imageLiteral(resourceName: "arcade"))!)) { image, error in
+        //                                            print(image, error)
         //        }
         
-//        ServerHandler.shared.post(tourVenueLink: TourVenueLink(tourId: "-75554895849043210061426592952800212357314827251",
-//                                                               venueId: "-8223430103261990772142659295-2805283394623252146")) { tourVenueLink, error in
-//                                                                print(error, " ---- ", tourVenueLink)
-//        }
-//
-//        ServerHandler.shared.post(tourVenueLink: TourVenueLink(tourId: "-75554895849043210061426592952800212357314827251",
-//                                                               venueId: "-3284220310270033925142659295-3268303823252278086")) { tourVenueLink, error in
-//                                                                print(error, " ---- ", tourVenueLink)
-//        }
-//
-//        ServerHandler.shared.post(tourVenueLink: TourVenueLink(tourId: "-75554895849043210061426592952800212357314827251",
-//                                                               venueId: "-2567205297800524666142659295-8285637052938454203")) { tourVenueLink, error in
-//                                                                print(error, " ---- ", tourVenueLink)
-//        }
-//
-//        ServerHandler.shared.post(tourVenueLink: TourVenueLink(tourId: "-76291922946327946311426592952800212357314827251",
-//                                                               venueId: "197351861391138231142659295-4478775936803369351")) { tourVenueLink, error in
-//                                                                print(error, " ---- ", tourVenueLink)
-//        }
-//
-//        ServerHandler.shared.post(tourVenueLink: TourVenueLink(tourId: "-76291922946327946311426592952800212357314827251",
-//                                                               venueId: "56979042570905038861426592958535213956809072549")) { tourVenueLink, error in
-//                                                                print(error, " ---- ", tourVenueLink)
-//        }
         
-//        ServerHandler.shared.getAllVenues { (venues, error) in
-//            if let venues = venues {
-//                for venue in venues {
-//                    print(venue.name, venue.imagesDecoded?.first)
-//                }
-//            }
+        
+        
+        
+        
+        
+        
+        //        kitura.post(venue: Venue(venueId: "",
+        //                                 name: "The Last Quarter",
+        //                                 description: """
+        //Keeping the arcade dream alive.
+        //Get a free token for each drink purchase.
+        //""",
+        //                                 category: "Bar Arcade",
+        //                                 address1: "Corso Nicolangelo Protopisani 50",
+        //                                 address2: "San Giovanni a Teduccio",
+        //                                 city: "Naples",
+        //                                 country: "Italy",
+        //                                 zipCode: "80146",
+        //                                 phone: "(555) 555-5555",
+        //                                 email: "fake@email.com")) { venue, error in
+        //                                    print(venue, error)
+        //        }
+        
+        //                kitura.post(venueImage: VenueImage(venueId: "7714765217950437708385353513914654511978718468277462862388589",
+        //                                                   image: UIImagePNGRepresentation(#imageLiteral(resourceName: "toy"))!)) { image, error in
+        //                                                    print(image, error)
+        //                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        ///// MISSING IMAGES
+        
+        
+//        kitura.post(venue: Venue(venueId: "",
+//                                 name: "Ye Old Print Shop",
+//                                 description: """
+//    The only place to be in Naples for retro and vintage lovers.
+//Looking for anything in particular? We will find it for you.
+//We also organise monthly live music events!
+//""",
+//                                 category: "Vintage Prints",
+//                                 address1: "Corso Nicolangelo Protopisani 50",
+//                                 address2: "San Giovanni a Teduccio",
+//                                 city: "Naples",
+//                                 country: "Italy",
+//                                 zipCode: "80146",
+//                                 phone: "(555) 555-5555",
+//                                 email: "fake@email.com")) { venue, error in
+//                                    print(venue, error)
 //        }
+//
+//                        kitura.post(venueImage: VenueImage(venueId: "-2515832956101007650-244602442004460382821484581086112350828589",
+//                                                           image: UIImagePNGRepresentation(#imageLiteral(resourceName: "toy"))!)) { image, error in
+//                                                            print(image, error)
+//                        }
+        
+        
+        
+        
+        
+        
+        
+        //        kitura.post(venue: Venue(venueId: "",
+        //                                         name: "Bottega del Cuoio",
+        //                                         description: """
+        //        Gennaro Esposito has been running his leather workshop for 50 years, becoming a world renowned master in his field.
+        //        Anything you wish for, he can produce with superb quality, fully handmade and customised for you.
+        //        """,
+        //                                         category: "Leather Goods",
+        //                                         address1: "Corso Nicolangelo Protopisani 50",
+        //                                         address2: "San Giovanni a Teduccio",
+        //                                         city: "Naples",
+        //                                         country: "Italy",
+        //                                         zipCode: "80146",
+        //                                         phone: "(555) 555-5555",
+        //                                         email: "fake@email.com")) { venue, error in
+        //                                            print(venue, error)
+        //                }
+        
+        //        kitura.post(venueImage: VenueImage(venueId: "-2371464205953360676-5353394152472135304-61890306795192049628589",
+        //                                                           image: UIImagePNGRepresentation(#imageLiteral(resourceName: "toy"))!)) { image, error in
+        //                                                            print(image, error)
+        //                        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+//                kitura.post(venue: Venue(venueId: "",
+//                                                 name: "Pasta Eden",
+//                                                 description: """
+//                Founded in 1947, Pasta Eden is now a 3rd generation business specialised in typical Neapolitan products of the best quality.
+//                Drop by for a rare taste you won’t find anywhere else, from pasta to mozzarella.
+//                We will also give away free smiles and secret recipes.
+//                """,
+//                                                 category: "Traditional Food Store",
+//                                                 address1: "Corso Nicolangelo Protopisani 50",
+//                                                 address2: "San Giovanni a Teduccio",
+//                                                 city: "Naples",
+//                                                 country: "Italy",
+//                                                 zipCode: "80146",
+//                                                 phone: "(555) 555-5555",
+//                                                 email: "fake@email.com")) { venue, error in
+//                                                    print(venue, error)
+//                        }
+        
+        //        kitura.post(venueImage: VenueImage(venueId: "-7731644362145992818-909479483470509917961701605953032851528589",
+        //                                                           image: UIImagePNGRepresentation(#imageLiteral(resourceName: "toy"))!)) { image, error in
+        //                                                            print(image, error)
+        //                        }
     }
     
     override func didReceiveMemoryWarning() {
